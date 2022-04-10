@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+section > img {
+  width: 10%;
+  flex-wrap: wrap;
+}
