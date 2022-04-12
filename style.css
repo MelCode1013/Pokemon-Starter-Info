@@ -16,3 +16,24 @@ section > img {
   width: 10%;
   flex-wrap: wrap;
 }
+
+.pokedexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.pokemonList {
+  padding: 5%;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
