@@ -10,11 +10,12 @@ p {
 section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 section > img {
-  width: 10%;
-  flex-wrap: wrap;
+  width: 100px;
+  min-width: 0;
 }
 
 .pokedexContainer {
@@ -23,7 +24,14 @@ section > img {
   justify-content: center;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 div > img {
+  min-width: 0;
+  max-width: 982px;
   width: 100%;
   height: auto;
   margin: 0 auto;
